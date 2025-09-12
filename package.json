@@ -1,0 +1,31 @@
+{
+  "name": "msg-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkk290/msg-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jkk290/msg-backend/issues"
+  },
+  "homepage": "https://github.com/jkk290/msg-backend#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.1.3",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
+  }
+}
