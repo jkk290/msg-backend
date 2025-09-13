@@ -33,4 +33,12 @@ model Message {
   receiverId Int
   createdAt DateTime @default(now())
   content String
+  conversation Conversation @relation(fields: [conversationId], references: [id])
+  conversationId  Int
+}
+
+model Conversation {
+  id  Int @id @default(autoincrement())
+  messages Message[]
+
 }
